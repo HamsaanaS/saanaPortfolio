@@ -1,0 +1,20 @@
+nav {
+    background-color: black;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 0 auto;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+
+        li {
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}

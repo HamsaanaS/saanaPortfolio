@@ -1,0 +1,20 @@
+// SKILLS STYLES
+
+.skillsContainer {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+    li {
+        width: calc(100% / 4);
+        padding: 2rem 1rem;
+        text-align: center;
+
+        i {
+            font-size: 3.5rem;
+        }
+    }
+}

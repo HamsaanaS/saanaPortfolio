@@ -1,0 +1,24 @@
+// TYPOGRAPHY
+
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@700&family=Work+Sans&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Unna', serif;
+    color: white;
+}
+
+span, p, li, a {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    line-height: 3rem;
+
+    span {
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+}
