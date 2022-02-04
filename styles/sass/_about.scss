@@ -2,7 +2,7 @@
 
 .about {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
     .aboutImgTitle, .aboutTxt {
@@ -27,5 +27,8 @@
         }
     }
 
+    .aboutTxt {
+        margin-left: 1.5rem;
+    }
 }
 

@@ -26,13 +26,48 @@
         }
 
         .appDescription {
-            width: 80%;
+            width: 60%;
 
             p {
+                line-height: 1.5rem;
                 margin-bottom: 2rem;
             }
         }
 
+    }
+}
+
+@media (max-width: 830px) {
+    .about {
+        .aboutTxt {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 810px) {
+        .about {
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .aboutImgTitle {
+            width: 75%;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .aboutTxt {
+            width: 100%;
+
+            p{ 
+                text-align: center;
+                margin-top: 1.5rem;
+            }
+        }
     }
 }
 
@@ -61,30 +96,6 @@
 
         .scrollContainer {
             justify-content: center;
-        }
-    }
-
-    .about {
-        flex-direction: column;
-        justify-content: space-evenly;
-
-        .aboutImgTitle {
-            width: 75%;
-
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-
-        .aboutTxt {
-            width: 100%;
-
-            p{ 
-                font-size: 16px;
-                text-align: center;
-                letter-spacing: 1.5px;
-                line-height: 25px;
-            }
         }
     }
 
@@ -149,7 +160,7 @@
             width: 100%;
 
             h2 {
-                font-size: 1rem;
+                font-weight: 400;
             }
         }
     }
@@ -187,6 +198,26 @@
                 
             h3 {
                     font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .about {
+        .aboutImgTitle {
+            h2 {
+                font-size: 1.35rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .about {
+        .aboutImgTitle {
+            h2 {
+                font-size: 1.17rem;
             }
         }
     }

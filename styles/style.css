@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Unna:wght@700&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unna:wght@400;700&family=Work+Sans:wght@300;400&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -237,6 +237,14 @@ h4, h5, span, p, li, a {
   color: white;
 }
 
+h3 {
+  font-weight: 400;
+}
+
+h4, p {
+  font-weight: 300;
+}
+
 h1 {
   font-size: 4.7rem;
   text-transform: uppercase;
@@ -254,6 +262,7 @@ h1 span {
 }
 .about p {
   font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .skills h2 {
@@ -424,9 +433,9 @@ nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -456,6 +465,9 @@ nav ul li a {
 }
 .about .aboutImgTitle .aboutImg img {
   width: 100%;
+}
+.about .aboutTxt {
+  margin-left: 1.5rem;
 }
 
 .skills h2 {
@@ -523,14 +535,14 @@ nav ul li a {
   margin: 5% 0;
 }
 .projects .appTxtImgFlex .appImg {
-  width: 80%;
+  width: 75%;
   margin-bottom: 2%;
 }
 .projects .appTxtImgFlex .appImg img {
   width: 100%;
 }
 .projects .appTxtImgFlex .appTxtBox {
-  width: 70%;
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -600,10 +612,40 @@ nav ul li a {
     margin: 1rem 0;
   }
   .projects .appDescription {
-    width: 80%;
+    width: 60%;
   }
   .projects .appDescription p {
+    line-height: 1.5rem;
     margin-bottom: 2rem;
+  }
+}
+@media (max-width: 830px) {
+  .about .aboutTxt p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 810px) {
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .about .aboutImgTitle {
+    width: 75%;
+  }
+  .about .aboutImgTitle h2 {
+    font-size: 1.5rem;
+  }
+  .about .aboutTxt {
+    width: 100%;
+  }
+  .about .aboutTxt p {
+    text-align: center;
+    margin-top: 1.5rem;
   }
 }
 @media (max-width: 740px) {
@@ -639,31 +681,6 @@ nav ul li a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-
-  .about {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .about .aboutImgTitle {
-    width: 75%;
-  }
-  .about .aboutImgTitle h2 {
-    font-size: 1.5rem;
-  }
-  .about .aboutTxt {
-    width: 100%;
-  }
-  .about .aboutTxt p {
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 1.5px;
-    line-height: 25px;
   }
 
   .skills i {
@@ -720,7 +737,7 @@ nav ul li a {
     width: 100%;
   }
   .about .aboutImgTitle h2 {
-    font-size: 1rem;
+    font-weight: 400;
   }
 
   .skills .skillsContainer {
@@ -748,6 +765,16 @@ nav ul li a {
   }
   .projects .appDescription h3 {
     font-size: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .about .aboutImgTitle h2 {
+    font-size: 1.35rem;
+  }
+}
+@media (max-width: 370px) {
+  .about .aboutImgTitle h2 {
+    font-size: 1.17rem;
   }
 }
 html {
