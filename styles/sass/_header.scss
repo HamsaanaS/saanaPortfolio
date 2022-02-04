@@ -7,28 +7,26 @@ header {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 
     .headerContainer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: flex-start;
 
         h1 {
-            margin-top: 0;
-            padding-top: 45%;
-            border-bottom: 0.2rem solid #FF0000;
-            text-shadow: 1px 2px 0 rgb(4, 21, 29);
+            padding-top: 35%;
+            text-shadow: 1px 2px 2px rgb(4, 21, 29);
 
             span {
-            text-shadow: 1px 1px 1px #2D3033;;
-            display: inline-block;
-            overflow: hidden;
-            border-right: 0.3rem solid #FF0000;
-            animation: 
-                typing 3.5s steps(20, end), 
-                cursor .8s step-end infinite;
+                margin-top: 1rem;
+                text-shadow: 1px 1px 1px #2D3033;;
+                display: inline-block;
+                overflow: hidden;
+                border-bottom: 0.15rem solid #FF0000;
+                border-right: 0.3rem solid #FF0000;
+                animation: 
+                    typing 3s steps(20, end), 
+                    cursor .5s step-end infinite;
             }
     
             @keyframes typing {
@@ -37,9 +35,18 @@ header {
             }
 
             @keyframes cursor {
-                from, to { border-color: transparent }
-                50% {border-color: #FF0000 }
+                from, to { border-right-color: transparent }
+                50% {border-right-color: #FF0000 }
             }
+        }
+    }
+
+    .scrollContainer {
+        display: flex;
+        justify-content: flex-start;
+
+        i {
+            padding-right: 2rem;
         }
     }
 

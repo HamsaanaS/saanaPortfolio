@@ -1,0 +1,193 @@
+// MEDIAQUERIES
+
+@media (max-width: 1080px) {
+    .projects {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .appTxtImgFlex {
+            width: 100%;
+            margin-bottom: 0;
+
+            .appImg {
+                margin-bottom: -3%;
+            }
+
+            .appTxtBox {
+                width: 60%;
+                justify-content: space-evenly;
+                padding: 0;
+
+                h5 {
+                    margin: 1rem 0;
+                }
+            }
+        }
+
+        .appDescription {
+            width: 80%;
+
+            p {
+                margin-bottom: 2rem;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 740px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .headerContainer {
+        align-items: center;
+        
+            h1 {
+                padding-top: 50%;
+                font-size: 3rem;
+                line-height: 2.5rem;
+
+                span {
+                    font-size: 1.25rem;
+                    line-height: 1.2rem;
+                }
+            }
+        }
+
+        .scrollContainer {
+            justify-content: center;
+        }
+    }
+
+    .about {
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .aboutImgTitle {
+            width: 75%;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .aboutTxt {
+            width: 100%;
+
+            p{ 
+                font-size: 16px;
+                text-align: center;
+                letter-spacing: 1.5px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .skills {
+        i {
+            font-size: 2rem;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .projects {
+        text-align: center;
+
+        .appDescription {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            p {
+            font-size: 16px;
+            }
+
+            h4 {
+                margin: 0;
+            }
+
+            ul {
+                justify-content: center;
+                li {
+                padding: 0.5rem;
+            }
+            }
+        }
+    }
+}
+
+@media (max-width: 570px) {
+
+    header {
+        .headerContainer {
+            h1 {
+                font-size: 2.25rem;
+
+                span {
+                    font-size: 0.95rem;
+                    border-bottom: 0.13rem solid #FF0000;
+                    border-right: 0.1rem solid #FF0000;
+                }
+            }
+        }
+    }
+
+    .about {
+        .aboutImgTitle {
+            width: 100%;
+
+            h2 {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .skills {
+        .skillsContainer {
+            margin-bottom: 0;
+            li {
+                width: calc(100% / 3);
+            }
+        }
+    }
+
+    .projects {
+        margin-bottom: 1rem;
+
+        .appTxtImgFlex {
+            
+            .appImg {
+                width: 100%;
+            }
+
+            .appTxtBox {
+                width: 95%;
+
+                h5, a {
+                    font-size: 16px;
+                    line-height: 2px;
+                }
+            }
+        }
+
+        .appDescription {
+            width: 100%;
+                
+            h3 {
+                    font-size: 1rem;
+            }
+        }
+    }
+}

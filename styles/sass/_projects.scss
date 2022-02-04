@@ -1,0 +1,66 @@
+// PROJECTS STYLES 
+
+.projectsTitle {
+    border-top: 0.03rem solid red;
+    border-bottom: 0.03rem solid red;
+    text-shadow: 0px 2px 2px rgb(4, 21, 29);
+    margin-bottom: 10%;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+
+    .appTxtImgFlex {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5% 0;
+
+        .appImg {
+            width: 80%;
+            margin-bottom: 2%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .appTxtBox {
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 0.85rem;
+            background-color: #FFFFFF;
+            box-shadow: inset 0 0 2px 1px #000000;
+
+            a {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+
+    .appDescription {
+        width: 45%;
+        margin: 5% 0;
+
+        h3{ 
+            border-bottom: 0.1rem solid #FF0000;
+        }
+
+        ul {
+            max-width: 10rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            list-style: none;
+            padding: 0;
+
+        }
+    }
+}

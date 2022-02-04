@@ -1,20 +1,28 @@
 // SKILLS STYLES
+.skills {
 
-.skillsContainer {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: space-between;
-    flex-wrap: wrap;
-    padding: 2rem;
+    h2 {
+        border-top: 0.03rem solid red;
+        border-bottom: 0.03rem solid red;
+        text-shadow: 0px 2px 2px rgb(4, 21, 29);
+        margin-bottom: 10%;
+    }
 
-    li {
-        width: calc(100% / 4);
-        padding: 2rem 1rem;
-        text-align: center;
+    .skillsContainer {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+        flex-wrap: wrap;
+        padding: 1rem;
+        padding-bottom: 0;
 
-        i {
-            font-size: 3.5rem;
+        li {
+            width: calc(100% / 4);
+            min-width: 30px;
+            padding: 1.25rem 0.7rem;
+            text-align: center;
+
         }
     }
 }
