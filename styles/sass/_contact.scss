@@ -1,0 +1,60 @@
+// CONTACT STYLES
+// .contact {
+//     h2 {
+//         border-top: 0.03rem solid red;
+//         border-bottom: 0.03rem solid red;
+//         text-shadow: 0px 2px 2px rgb(4, 21, 29);
+//         margin-bottom: 10%;
+//     }
+
+//     form {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     padding: 2rem;
+//     margin: 1rem;
+//     }
+// }
+
+.form {
+
+    h2 {
+    padding: 2.1% 0;
+    border-top: 0.03rem solid red;
+    border-bottom: 0.03rem solid red;
+    text-shadow: 0px 2px 2px rgb(4, 21, 29);
+    }
+
+    p { 
+    max-width: 45rem;
+    margin-bottom: 30px;
+    }
+
+    form {
+        max-width: 700px;
+
+        .formRow {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 65%;
+            border: 1px solid #B18F39;
+            outline: 0;
+            // font-size: 2.5rem;
+            margin: 5px 0;
+            resize: none;
+        }
+        label {
+            // font-size: 1.7rem;
+            padding: 0;
+        }
+        button {
+            width: 25%;
+            margin-bottom: 5%;
+        }
+    }
+
+} 
