@@ -329,7 +329,16 @@ h1 span {
 .form p {
   font-size: 0.95rem;
   line-height: 1.5rem;
+  padding: 2% 0;
   text-align: center;
+}
+.form i {
+  font-size: 3rem;
+}
+.form i:hover,
+.form i:focus {
+  color: red;
+  font-size: 3.5rem;
 }
 
 footer p {
@@ -811,6 +820,23 @@ nav ul li a {
 .form p {
   max-width: 45rem;
   margin-bottom: 30px;
+}
+.form ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+.form ul li {
+  min-width: 30px;
+  padding: 5%;
+  text-align: center;
 }
 .form form {
   max-width: 700px;

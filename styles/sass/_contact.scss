@@ -1,20 +1,4 @@
 // CONTACT STYLES
-// .contact {
-//     h2 {
-//         border-top: 0.03rem solid red;
-//         border-bottom: 0.03rem solid red;
-//         text-shadow: 0px 2px 2px rgb(4, 21, 29);
-//         margin-bottom: 10%;
-//     }
-
-//     form {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-around;
-//     padding: 2rem;
-//     margin: 1rem;
-//     }
-// }
 
 .form {
 
@@ -28,6 +12,19 @@
     p { 
     max-width: 45rem;
     margin-bottom: 30px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        li {
+            min-width: 30px;
+            padding: 5%;
+            text-align: center;
+        }
     }
 
     form {

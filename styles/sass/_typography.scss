@@ -125,8 +125,18 @@ h1 {
     p {
         font-size: 0.95rem;
         line-height: 1.5rem;
-
+        padding: 2% 0;
         text-align: center;
+    }
+
+    i {
+        font-size: 3rem;
+    }
+
+    i:hover,
+    i:focus {
+        color: red;
+        font-size: 3.5rem;
     }
 }
 
